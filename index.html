@@ -46,13 +46,13 @@
 
 	<section>
 		<em>
-		<h2> Data sharing dilemmas</h2>
+		<h2> Our data science approach</h2>
 		</em>
-		<br>October, 4th 2018
-		<br>BRAIN Initiative Working Group 2.0 Workshop
+		<br>January 28th, 2019
+		<br>Learning2learn all-hands meeting
 		<p><a href="http://arokem.org">Ariel Rokem</a>,
 		<a href="http://escience.washington.edu">The University of Washington eScience Institute</a> </p>
-		<p>  <small>Follow along at: <t><a href="https://arokem.github.io/2018-10-04-BRAIN-ACD/">https://arokem.github.io/2018-10-04-BRAIN-ACD/</t></a></small></p>
+		<p>  <small>Follow along at: <t><a href="https://arokem.github.io/2019-01-28-U19-allhands/">https://arokem.github.io/2019-01-28-U19-allhands</t></a></small></p>
 
 		<img src="img/eScience.png" height="100px" alt="eScience logo" align="middle">
 		<img src="img/uwin-logo.jpg" height="100px" alt="CNC logo" align="middle">
@@ -61,33 +61,143 @@
 		<img src="img/cc-by.png" height="30px" alt="License" align="middle">
 	</section>
 
-	<section>
+    <section>
+            <h2>The data life-cycle</h2>
+            <img src="img/ds_aims.png">
+    </section>
 
-	<h2>"How aggressive should we be about data sharing, task standardization and data aggregation?"</h2>
-
-	<h2>"Is data sharing working well enough?  If not, why not?"</h2>
-
-	<h2>"How should NIH help to coordinate computational infrastructure?"</h2>
-
-	</section>
 
 	<section>
-		<h2>"How aggressive should we be about data sharing, task standardization and data aggregation?"</h2>
 
-		<h2 class="fragment">What is the value of making data and code available?</h2>
-	</section>
+    <h1>U19 Data Science Core</h1>
+
+    <h3 class="fragment">Processing</h3>
+
+    <h3 class="fragment">Data sharing and data standards</h3>
+
+    <h3 class="fragment">Collaborative development of computational tools</h3>
+
+    <h3 class="fragment">Shared/common computational environments</h3>
+
+    <h3 class="fragment">Scalable computing</h3>
+
+    </section>
+
+    <section>
+            <img src="img/ds_aims_standards.png">
+    </section>
+
+    <section>
+            <h3>What does a light-weight data standard enable?</h3>
+            <p class="fragment">Minimal curation => reusability</p>
+            <p class="fragment">Validation: human and machine readable</p>
+            <p class="fragment">Development of automated analysis tools</p>
+            <div class="cite"><a href="https://www.nature.com/articles/sdata201644">Gorgolewski et al. (2016)</a><br>
+            </div>
+        </section>
+
 
 	<section>
-		<h2>Reproducibility</h2>
-		<img src="img/The_Royal_Society_Coat_of_Arms.svg">
-		<div class="fragment">
-		<blockquote>
-			"In god we trust, the rest bring data"
-		</blockquote>
-			</tab>- Deming
-		</div>
-	</section>
+        <h2>BIDS: a scientist-friendly data standard</h2>
+        <p class="fragment"><a href="http://bids.neuroimaging.io/">The Brain Imaging Data Standard</a></p>
+        <p class="fragment">Supported by INCF</p>
+        <p class="fragment">Developed through an open and collaborative design process</p>
+        <p class="fragment">An ongoing process</p>
+        <div class="cite">
+        <a href="https://www.nature.com/articles/sdata201644">Gorgolewski et al. (2016)</a>
+        </div>
+    </section>
 
+    <section>
+        <img src="img/bids.jpg">
+    </section>
+
+    <section>
+        <h3>Collaborative tool development</h3>
+        <img src="img/labtocat.png">
+    </section>
+
+
+
+	<section>
+        <h2>Computational infrastructure</h2>
+    <section>
+            <img src="img/ds_aims_infra.png">
+    </section>
+
+    </section>
+
+    <section>
+        <h2>What are the requirements?</h2>
+        <p class="fragment">Bring the compute to the data</p>
+        <p class="fragment">Scalable computing</p>
+        <p class="fragment">Provide useful tools and interfaces</p>
+        <p class="fragment">Facilitate interoperability (between datasets, between software libraries)</p>
+        <p class="fragment">Control access</p>
+    </section>
+
+    <section>
+        <h2>To the cloud!</h2>
+        <p class="fragment">Co-localization of data and compute</p>
+        <p class="fragment">Scaling and elasticity</p>
+        <p class="fragment">Consistent and open to all</p>
+    </section>
+
+    <section>
+            <a href="http://pangeo.io/"><img src="img/pangeo_simple_logo.svg" height=100></a>
+    </section>
+
+	<section>
+            <h2>Open-source software for science</h2>
+            <p class="fragment">Python: an ecosystem for scientific computing </p>
+            <p class="fragment">Free and open source</p>
+            <p class="fragment">High-level interpreted language</p>
+            <p class="fragment">Very wide adoption</p>
+            <p class="fragment">Both in academic research and in industry</p>
+
+            <div class="cite">
+                <a href="https://ieeexplore.ieee.org/document/5582063">Perez et al. (2010)</a>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Python in Astronomy (ADS)</h2>
+            <img src="img/python-in-astro.png" height=400>
+        </section>
+
+        <section>
+            <img src="img/jupyter-logo.svg" height=200;>
+
+            <div>
+                <p class="fragment">Grew out of IPython (an interactive Python shell)</p>
+                <p class="fragment">Awarded the 2018 ACM Software System Award</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>The Jupyter notebook</h2>
+            <img src="img/notebook_example.png">
+        </section>
+
+        <section>
+            <h2>Cloud computing</h2>
+            <div class="fragment">
+            <img src="img/kubernetes.png" height=200><br>
+            Kubernetes
+            </div>
+            <p class="fragment">Vendor agnostic</p>
+            <p class="fragment">Public cloud, HPC, combinations </p>
+        </section>
+
+        <section>
+                <img src="img/pangeo_simple_logo.svg" height=100>
+                <img src="img/pangeo_architecture.png">
+        </section>
+
+    <!-- <section>
+        <h2>Data sharing</h2>
+    </section>
 	<section>
 		<h2>Reproducibility in the age of computational science</h2>
 		<blockquote>
@@ -116,141 +226,6 @@
 		</div>
 	</section>
 
-	<section>
-	<h2>"How aggressive should we be about data sharing, task standardization and data aggregation?"</h2>
-
-	<h2 class="fragment">If the data was worth collecting, it is worth sharing</h2>
-
-	</section>
-
-	<section>
-		<h2>"Is data sharing working well enough?  If not, why not?"</h2>
-	</section>
-
-	<section>
-		<h2>What would it take?</h2>
-		<p class="fragment">Standards</p>
-		<p class="fragment">Software</p>
-		<p class="fragment">Compute platforms</p>
-		<p class="fragment">Socio-technical: training, incentives, careers</p>
-	</section>
-
-	<section>
-		<h2>BIDS: a scientist-friendly data standard</h2>
-		<p class="fragment"><a href="http://bids.neuroimaging.io/">The Brain Imaging Data Standard</a></p>
-		<p class="fragment">Supported by INCF</p>
-		<p class="fragment">Developed through an open and collaborative design process</p>
-		<p class="fragment">An ongoing process</p>
-		<div class="cite">
-		<a href="https://www.nature.com/articles/sdata201644">Gorgolewski et al. (2016)</a>
-		</div>
-	</section>
-
-	<section>
-		<img src="img/bids.jpg">
-	</section>
-
-	<section>
-		<h2>What does this enable?</h2>
-		<p class="fragment">Minimal curation => reusability</p>
-		<p class="fragment">Validation: human and machine readable</p>
-		<p class="fragment">Development of automated analysis tools</p>
-		<div class="fragment">
-		<a href="https://healthybrainnetwork.org/"><img src="img/child-mind-institute-hbn-logo.jpg"></a>
-		</div>
-		<div class="cite"><a href="https://www.nature.com/articles/sdata201644">Gorgolewski et al. (2016)</a><br>
-		<a href="https://www.nature.com/articles/sdata2017181">Alexander et al. (2017)</a>
-
-		</div>
-	</section>
-
-
-	<section>
-		<h2>"How should NIH help to coordinate computational infrastructure?"</h2>
-	</section>
-
-	<section>
-		<h2>What are the requirements?</h2>
-		<p class="fragment">Bring the compute to the data</p>
-		<p class="fragment">Scalable computing</p>
-		<p class="fragment">Provide useful tools and interfaces</p>
-		<p class="fragment">Facilitate interoperability (between datasets, between software libraries)</p>
-		<p class="fragment">Control access</p>
-	</section>
-
-	<section>
-		<h2>To the cloud!</h2>
-		<p class="fragment">Co-localization of data and compute</p>
-		<p class="fragment">Scaling and elasticity</p>
-		<p class="fragment">Consistent and open to all</p>
-	</section>
-
-
-	<section>
-		<h2><a href="https://openneuro.org">OpenNeuro</a></h2>
-		<img src="img/openneuro.png">
-	</section>
-
-	<section>
-		<h2><a href="https://brainlife.io">BrainLife</a></h2>
-		<img src="img/brainlife.png">
-	</section>
-
-	<section>
-		<h2>Do we need to build a portal for every collaboration in the BRAIN Initiative?</h2>
-	</section>
-
-	<section>
-			<a href="http://pangeo.io/"><img src="img/pangeo_simple_logo.svg" height=100></a>
-	</section>
-
-	<section>
-		<h2>Open-source software for science</h2>
-		<p class="fragment">Python: an ecosystem for scientific computing </p>
-		<p class="fragment">Free and open source</p>
-		<p class="fragment">High-level interpreted language</p>
-		<p class="fragment">Very wide adoption</p>
-		<p class="fragment">Both in academic research and in industry</p>
-
-		<div class="cite">
-			<a href="https://ieeexplore.ieee.org/document/5582063">Perez et al. (2010)</a>
-		</div>
-
-	</section>
-
-	<section>
-		<h2>Python in Astronomy (ADS)</h2>
-		<img src="img/python-in-astro.png" height=400>
-	</section>
-
-	<section>
-		<img src="img/jupyter-logo.svg" height=200;>
-
-		<div>
-			<p class="fragment">Grew out of IPython (an interactive Python shell)</p>
-			<p class="fragment">Awarded the 2018 ACM Software System Award</p>
-		</div>
-	</section>
-
-	<section>
-		<h2>The Jupyter notebook</h2>
-		<img src="img/notebook_example.png">
-	</section>
-
-	<section>
-		<h2>Cloud computing</h2>
-		<div class="fragment">
-		<img src="img/kubernetes.png" height=200><br>
-		Kubernetes
-		</div>
-		<p class="fragment">Vendor agnostic</p>
-		<p class="fragment">Public cloud, HPC, combinations </p>
-	</section>
-
-	<section>
-			<img src="img/pangeo_simple_logo.svg" height=100>
-			<img src="img/pangeo_architecture.png">
-	</section>
 
 	<section>
 		<h2>Arguments against availability of data and code</h2>
@@ -340,7 +315,7 @@
 
 	<h2>"How should NIH help to coordinate computational infrastructure?"</h2>
 
-	</section>
+	</section> -->
 
 
 	<section>
